@@ -1,0 +1,60 @@
+# Composer dependencies
+/vendor/
+
+# Composer files (keep composer.json and composer.lock)
+# composer.lock should generally be committed for applications
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Runtime and cache files
+*.cache
+/cache/
+/tmp/
+/temp/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# PHP specific
+*.php~
+*.phps
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+
+# Coverage reports
+/coverage/
+clover.xml
+
+# Backup files
+*.bak
+*.backup
+
+# Node.js (if using for frontend tooling)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
