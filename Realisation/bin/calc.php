@@ -44,6 +44,7 @@ try {
         echo $jsonOutput;
         
     } else {
+        
         foreach ($lines as $line) {
             echo $line;
         }

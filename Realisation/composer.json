@@ -8,11 +8,8 @@
     }
   },
   "scripts": {
+        "convert":"php bin/calc.php",
         "clear-output": "php -r \"file_put_contents('samples/output.json', '');\"",
-        "convert": [
-            "@clear-output",
-            "php bin/calc.php $(cat samples/input.txt) --json > samples/output.json"
-        ],
         "build": [
             "@composer dump-autoload -o",
             "echo 'Build complete.'"
