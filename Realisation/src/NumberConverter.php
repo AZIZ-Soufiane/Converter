@@ -23,11 +23,6 @@ class NumberConverter implements ConverterInterface
         return decbin($this->number);
     }
 
-    public function toHexa(): string
-    {
-        return strtoupper(dechex($this->number));
-    }
-
     public function bitwiseAnd(int $other): int
     {
         return $this->number & $other;
